@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 420px;
+        height: 550px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .box-1{
+        height: 135px;
+        width: 420px;
+        border: 1px solid red;
+        border-radius: 10px;
+        font-size: 115px;
+        font-family: sans-serif;
+        padding-left: 300px;
+        background-color: red;
+    }
+    table{
+        width: 420px;
+        height: 400px;
+        /* padding-left: 10px; */
+    }
+
+    th{
+        font-size: 30px;
+        /* padding: 70px; */
+        /* padding-bottom: 40px; */
+        /* padding: 55px; */
+        border: 1px solid rgb(185, 173, 173);
+        border-radius: 50%;
+        background-color: rgb(185, 173, 173);
+
+    }
+    .sanju{
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="container">
+       <div class="box-1">
+        0
+       </div>
+       <table cellspacing="10px">
+        <tr>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>+</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>*</th>
+        </tr>
+        <tr>
+            <th>0</th>
+            <th>.</th>
+            <th>/</th>
+            <th class="sanju">=</th>
+        </tr>
+       </table>
+    </div>
+</body>
+</html>
